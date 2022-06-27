@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\PHI LONG\\Desktop\\BEApp\\BEApp\\BEApp\\BEApp.csproj": {}
+    "E:\\New folder (2)\\BEApp\\BEApp\\BEApp.csproj": {}
   },
   "projects": {
-    "C:\\Users\\PHI LONG\\Desktop\\BEApp\\BEApp\\BEApp\\BEApp.csproj": {
+    "E:\\New folder (2)\\BEApp\\BEApp\\BEApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\PHI LONG\\Desktop\\BEApp\\BEApp\\BEApp\\BEApp.csproj",
+        "projectUniqueName": "E:\\New folder (2)\\BEApp\\BEApp\\BEApp.csproj",
         "projectName": "BEApp",
-        "projectPath": "C:\\Users\\PHI LONG\\Desktop\\BEApp\\BEApp\\BEApp\\BEApp.csproj",
+        "projectPath": "E:\\New folder (2)\\BEApp\\BEApp\\BEApp.csproj",
         "packagesPath": "C:\\Users\\PHI LONG\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\PHI LONG\\Desktop\\BEApp\\BEApp\\BEApp\\obj\\",
+        "outputPath": "E:\\New folder (2)\\BEApp\\BEApp\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\PHI LONG\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -40,6 +40,24 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[6.0.6, )"
+            },
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.6, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[6.0.6, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.6, )"
+            },
             "Microsoft.IdentityModel.Tokens": {
               "target": "Package",
               "version": "[6.20.0, )"
